@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    border: border-box;
+    /* font-family: Arial; */
+}
+.nav-bar{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+   
+    
+
+    justify-content: space-evenly;
+}
+.nav-text{
+    color: white;
+    /* margin-left: 30px; */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+}
+.nav-item{
+    display: inline-flex;
+    margin-left: 100px;
+    
+
+}
+
+.nav-item a{
+    /* display: inline-flex; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    color: white;
+    margin: 35px;
+    text-decoration: none;
+   font-size: 18px;
+}
+.nav-item a:hover{
+    color: red;
+}
+.butn{
+    height: 30px;
+    width: 110px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-top: 30px;
+   
+   
+}
+.butn:hover{
+    background-color:yellow;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 700px;
+    background-color: white;
+    border-bottom: 1px solid;
+}
+.header-nav1{
+    background-color: white;
+    /* border: 1px solid; */
+    margin-left: 200px;
+ 
+    border-radius: 5px;
+    margin-bottom: 80px;
+   
+    height: 400px;
+    width: 400px;
+
+}
+.header-text{
+    /* text-align: center; */
+    margin-left: 160px;
+ 
+    
+   
+   
+}
+.header-text h4{
+font-size: 25px;
+
+
+}
+.header-text h1{
+    font-weight: bold;
+    font-size: 37px;
+ 
+}
+
+.header-text span{
+    color: red;
+    font-size: 37px;
+    font-weight: bold;
+    
+}
+.header-text p{
+    margin: 3px;
+/* margin-top: 10px; */
+}
+
+.header-navlogo img{
+   margin-top: 40px;
+   margin-left: 20px;
+   border-radius: 10%;
+   border: 1px solid;
+    height: 330px;
+    /* width: 250px; */
+box-shadow: 0 0 10px 3px rgb(115, 128, 0);
+ 
+
+}
+
+.butna{
+    height: 35px;
+    width: 13%;
+   
+    margin: 17px;
+    color: white;
+    border: 1px black;
+    background: black;
+    border-radius: 5px;
+}
+.butnb{
+    height: 35px;
+    width: 16%;
+    color: white;
+    border: 1px red;
+    background: red;
+    border-radius: 5px;
+}
+.butna:hover{
+    cursor: pointer;
+    background: yellowgreen ;
+}
+.butnb:hover{
+    cursor: pointer;
+    background: rgb(50, 86, 205) ;
+}
+.nav-2{
+    height: 500px;
+    background-color: rgb(9, 7, 7);
+    display: flex;
+   
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.nav-about{
+    background-image: url(image/IMG_20231205_181238_383.jpg);
+    background-size: cover;
+    margin-left: 60px;
+    height: 400px;
+    width: 350px;
+    border-bottom: 1px solid;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 3px yellow;
+    border: 1px solid;
+}
+.nav-2text{
+   margin-top: 30px;
+   /* margin: 100px; */
+   margin-left: 200px;
+   color: white;
+}
+.nav-2text h3{
+    font-size: 30px;
+    /* color: white; */
+   
+}
+.nav-2text span{
+    color: red;
+}
+.nav-2text h1{
+    /* margin: 2px; */
+    font-size: 40px;
+    color: white;
+}
+.nav-2text p{
+    margin: 3px;
+}
+.butn2{
+    margin-top: 30px;
+    height: 35px;
+    width: 130px;
+    border-radius: 4px;
+    background: wheat;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.nav-contact{
+    height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-me{
+    height: 400px;
+    width: 700px;
+    background: white;
+    /* margin-top: 40px; */
+}
+.contact-me h1{
+    margin-top: 15px;
+    text-align: center;
+}
+.contact-me span{
+    color: red;
+}
+.contact-me form{
+   margin-left: 180px;
+   margin-top: 20px;
+ 
+}
+form input{
+    margin-top: 5px;
+    height: 30px;
+    width: 70%;
+    border-radius: 3px;
+}
+form textarea{
+    margin-top: 5px;
+    border: 2px solid;
+    height: 90px;
+    width: 70%;
+}
+.subm{
+    height: 30px;
+    margin-left: 60px;
+    color: white;
+    width: 50%;
+    background-color: black;
+}
+.footer{
+    height: 150px;
+    background-color: rgb(137, 85, 16);
+    color: white;
+    /* display: flex; */
+    
+}
+.icon-sec {
+margin-left: 40%;
+
+/* text-align: center; */
+
+}
+.icon-sec i{
+    margin: 20px;
+}
+.foot-all{
+   margin: 10px;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-text a{
+    margin: 30px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-last{
+    text-align: center;
+    margin-top: 15px;
+}
